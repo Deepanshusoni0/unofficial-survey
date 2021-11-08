@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Information</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+
+    <form class="" action="data.php">
+      <h1>Information</h1>
+      <h2>Shoes Information</h2>
+      <div class="preferences">Enter your preferences we will show some results related to it.</div>
+      <div class="container">
+        <fieldset>
+          <legend>
+      <p>Brand's Name:
+        <select name="name" id="name">
+        <option value="Adidas">Adidas</option>
+        <option value="Puma">Puma</option>
+        <option value="Sparx">Sparx</option>
+        <option value="nike">Nike</option>
+        <option value="Campus">Campus</option>
+        <option value="Woodland">Woodland</option>
+        <option value="Bata">Bata</option>
+      </select></p>
+    </legend>
+    </fieldset>
+  </div>
+       <div class="details">
+         <fieldset>
+      <p class="Gender">Gender: <span class="other">Male<input type="radio" name="Gender" value="male" required> Female <input type="radio" name="Gender" value="female"></span></p>
+          <p>Enter Your Size: <span class="other"><input type="number" name="size" value="5" min="5" max="14" required>UK</span></p>
+          <p>Price Range: <span class="other"><input type="number" name="range" value="" min="900" max="9999" required>Rs.</span></p>
+        </fieldset></div>
+        <hr>
+        <br>
+        <footer>
+          For Payment <a href="payment.html" alt="Payment"><input type="button" value="Click Here"><br><br>
+            <div>
+        <input type="submit" name="Submit" class="submit">
+      </div>
+    </form>
+
+  </body>
+</html>
